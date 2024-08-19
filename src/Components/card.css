@@ -8,6 +8,7 @@
     flex-wrap: wrap;
     background-color: grey;
     margin-top: -20pxcko;
+    border: 2px solid black;
   }
   
   .card {
