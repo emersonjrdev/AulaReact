@@ -1,0 +1,76 @@
+/* src/banner.css */
+
+.banner {
+    margin: auto;
+    text-align: center;
+    background-color: #2c3e50;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 20px; /* Adiciona espaçamento inferior */
+    border-bottom: 2px solid #000;
+  }
+  
+  .banner h1 {
+    font-family: monospace;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    width: 350px;
+  }
+  
+  .banner img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 15px rgb(255, 255, 255); /* Apliquei um alfa para ver o efeito */
+  }
+  
+  .banner .caption {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #ecf0f1;
+  }
+  
+  .banner .description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ecf0f1;
+    margin-top: 10px;
+    max-width: 80%;
+    text-align: center;
+  }
+  
+  .botao {
+    background-color: #db3434; /* Cor de fundo azul */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 5px; /* Arredondamento dos cantos */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+    margin-top: 20px;
+    font-family: monospace;
+  }
+  
+  .botao:hover {
+    background-color: #aa3410; /* Cor de fundo quando o mouse passa por cima */
+  }
+  
+  .botao:active {
+    background-color: #1c5980; /* Cor de fundo quando o botão é pressionado */
+    transform: scale(0.98); /* Efeito de pressionamento */
+  }
+  
+  .botao:focus {
+    outline: none; /* Remove o contorno padrão de foco */
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5); /* Adiciona uma sombra ao redor do botão */
+  }
+  
